@@ -121,13 +121,17 @@ margin-right:10px;
 }
 .row {
     display: flex;
-
-align-items: flex-start;
-padding: 0px;
+    flex-direction: row;
+    align-items: center;
+    margin:-200px;
 
 }
 .card-item {
-    margin:35px 40px 35px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 35px 40px;
+    background:#FFFFFF;
 }
 .section__text {
     font-weight:bold;
@@ -144,5 +148,17 @@ padding: 0px;
 }
 .card-item-get{
 color:#FFFFFF;
-background:#0D5C63
+background:#0D5C63;
+
+}
+.paragraph_2{
+    font-weight:600;
+    line-height:171%;
+    letter-spacing :0.2px;
+}
+.section__text_2{
+    font-weight:bold;
+    font-size:24px;
+    line-height:133%;
+    letter-spacing:0.1px;
 }
